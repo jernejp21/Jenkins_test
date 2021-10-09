@@ -47,9 +47,6 @@ STM32L476.elf \
 SIZE_OUTPUT += \
 default.size.stdout \
 
-OBJDUMP_LIST += \
-STM32L476.list \
-
 OBJCOPY_BIN += \
 STM32L476.bin \
 
@@ -61,18 +58,13 @@ all: main-build
 main-build: STM32L476.elf secondary-outputs
 
 # Tool invocations
-STM32L476.elf: $(OBJS) $(USER_OBJS) ../STM32L476RGTX_RAM.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32L476.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"../STM32L476RGTX_RAM.ld" --specs=nosys.specs -Wl,-Map="STM32L476.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32L476.elf: $(OBJS) $(USER_OBJS) D:\gitHub\Jenkins_test\STM32L476\STM32L476RGTX_RAM.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32L476.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\gitHub\Jenkins_test\STM32L476\STM32L476RGTX_RAM.ld" --specs=nosys.specs -Wl,-Map="STM32L476.map" -Wl,--gc-sections -static  -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-size  $(EXECUTABLES)
-	@echo 'Finished building: $@'
-	@echo ' '
-
-STM32L476.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "STM32L476.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
@@ -83,10 +75,10 @@ STM32L476.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 
 # Other Targets
 clean:
-	-$(RM) $(SIZE_OUTPUT)$(OBJDUMP_LIST)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) STM32L476.elf
+	-$(RM) $(SIZE_OUTPUT)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) STM32L476.elf
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJCOPY_BIN)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
