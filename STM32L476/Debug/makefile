@@ -58,8 +58,8 @@ all: main-build
 main-build: STM32L476.elf secondary-outputs
 
 # Tool invocations
-STM32L476.elf: $(OBJS) $(USER_OBJS) D:\gitHub\Jenkins_test\STM32L476\STM32L476RGTX_RAM.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32L476.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\gitHub\Jenkins_test\STM32L476\STM32L476RGTX_RAM.ld" --specs=nosys.specs -Wl,-Map="STM32L476.map" -Wl,--gc-sections -static  -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32L476.elf: $(OBJS) $(USER_OBJS) ../STM32L476RGTX_RAM.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32L476.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"../STM32L476RGTX_RAM.ld" --specs=nosys.specs -Wl,-Map="STM32L476.map" -Wl,--gc-sections -static  -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
