@@ -13,10 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: working directory
-      working-directory: STM32L476/Debug
-      run: echo "$pwd"
-    - name: make clean
-      run: make clean
-    - name: make all
-      run: make all
+    - name: Experiment
+      run: |
+        pwd             # /home/runner/work/try/try
+        mkdir hello
+        cd hello
+        pwd             # /home/runner/work/try/try/hello
