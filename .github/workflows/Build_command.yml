@@ -17,14 +17,7 @@ jobs:
       run: sudo apt-get install gcc-arm-none-eabi
     - name: Make
       run: |
-        pwd             # /home/runner/work/try/try
         cd STM32L476/Debug
-        pwd             # /home/runner/work/try/try/hello
+        pwd
         make clean
-        make all
-    - name: make clean
-      run: |
-        make clean
-    - name: make all
-      run: |
         make all
