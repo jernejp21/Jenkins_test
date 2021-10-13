@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: configure
       run: echo "$pwd"
-           cd STM32L476/Debug
+           echo "cd STM32L476/Debug"
            echo "$pwd"
     - name: make clean
       run: make clean
