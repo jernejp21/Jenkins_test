@@ -16,6 +16,9 @@ jobs:
     - name: Experiment
       run: |
         pwd             # /home/runner/work/try/try
-        mkdir hello
-        cd hello
+        cd STM32L476/Debug
         pwd             # /home/runner/work/try/try/hello
+    - name: make clean
+      run: make clean
+    - name: make all
+      run: make all
