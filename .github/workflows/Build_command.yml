@@ -18,6 +18,8 @@ jobs:
         pwd             # /home/runner/work/try/try
         cd STM32L476/Debug
         pwd             # /home/runner/work/try/try/hello
+        make clean
+        make all
     - name: make clean
       run: make clean
     - name: make all
