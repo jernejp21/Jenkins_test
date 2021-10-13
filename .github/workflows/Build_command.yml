@@ -13,10 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: echo "$pwd"
-    - name: config path
-      run: cd /home/runner/work/Jenkins_test/Jenkins_test
+    - name: working directory
+      working-directory: STM32L476/Debug
     - name: config echo
       run: echo "$pwd"
     - name: make clean
