@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'Executor'
-    }
-
-  }
+  agent any
   stages {
     stage('Build with makefile') {
       steps {
