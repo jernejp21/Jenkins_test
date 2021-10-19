@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'Rpi'
+    }
+
+  }
   stages {
     stage('Build with makefile') {
       steps {
