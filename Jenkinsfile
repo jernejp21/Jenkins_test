@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'RPi'
+      label 'STM32node'
     }
 
   }
@@ -11,6 +11,13 @@ pipeline {
         sh '''cd STM32L476/Debug
 make clean
 make'''
+      }
+    }
+
+    stage('Run winIDEA tests') {
+      steps {
+        sh '''source ~bin/embeddedPy/bin/activate
+echo $PWD'''
       }
     }
 
