@@ -1,6 +1,7 @@
 import isystem.connect as ic
 import os
 import time
+import sys
 
 folderPath = os.path.abspath(os.path.curdir)
 winIDEAPath = os.path.join(folderPath, "Jenkins_iC5000.xjrf")
@@ -16,10 +17,10 @@ debugCtrl = ic.CDebugFacade(cmgr)
 #projCtrl = ic.CProjectController(cmgr)
 workspaceCtrl = ic.CWorkspaceController(cmgr)
 
-print("Downloading file...")
+sys.stdout.write("Downloading file...\n")
 debugCtrl.download()
 debugCtrl.runUntilFunction("main")
-print("Stopped at main for 5 s.")
+sys.stdout.write("Stopped at main for 5 s.\n")
 time.sleep(5)
 debugCtrl.run()
 debugCtrl.stop()
