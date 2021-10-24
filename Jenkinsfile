@@ -18,7 +18,7 @@ pipeline {
     stage('winIDEA test') {
       steps {
         dir(path: 'winIDEA') {
-          bat 'Set PATH=C:\\iSYSTEM\\winIDEA9\\Python python test.py'
+          bat 'run_test.bat'
         }
 
       }
