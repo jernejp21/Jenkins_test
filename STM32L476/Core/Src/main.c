@@ -56,6 +56,7 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+int delayTime = 1000;
 
 /* USER CODE END 0 */
 
@@ -100,7 +101,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-	  HAL_Delay(1000);
+	  HAL_Delay(delayTime);
   }
   /* USER CODE END 3 */
 }
