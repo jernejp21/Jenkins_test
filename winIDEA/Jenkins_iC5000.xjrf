@@ -40,11 +40,16 @@
        <__.0>
         <Name>App</Name>
         <Directories>
-         <AltPaths>true</AltPaths>
-         <ConvertFromTo></ConvertFromTo>
+         <AltPaths>false</AltPaths>
+         <ConvertFromTo>mnt/d/gitHub=D:/gitHub/</ConvertFromTo>
          <ConvertPath>false</ConvertPath>
          <FindPriority>DLFile</FindPriority>
          <FindSources>true</FindSources>
+         <ProjectFilesDirs>
+          <__.0>
+           <Dir>..\STM32L476\</Dir>
+          </__.0>
+         </ProjectFilesDirs>
         </Directories>
         <MemProp_ISA>
          <IgnoreDLInfo>false</IgnoreDLInfo>
@@ -183,10 +188,10 @@
             </UBROF>
            </Options>
            <PreProcessor>
-            <Analyze>none</Analyze>
+            <Analyze>DownloadFile</Analyze>
             <CommandLine></CommandLine>
             <UseProjectDefines>false</UseProjectDefines>
-            <UseProjectIncludePaths>false</UseProjectIncludePaths>
+            <UseProjectIncludePaths>true</UseProjectIncludePaths>
            </PreProcessor>
           </__.0>
          </File>
@@ -220,7 +225,7 @@
            <Options>
             <AnalyzeBeyondCOFInFunc>false</AnalyzeBeyondCOFInFunc>
             <AnalyzeCodeOutsideFunctions>true</AnalyzeCodeOutsideFunctions>
-            <CodeOffset>0x8000000</CodeOffset>
+            <CodeOffset>0x20000000</CodeOffset>
             <InTargetDir>false</InTargetDir>
             <LoadCode>true</LoadCode>
             <LoadSymbols>true</LoadSymbols>
@@ -285,8 +290,25 @@
         <DLFs_Target>
          <DefaultFile>-1</DefaultFile>
         </DLFs_Target>
+        <MemorySpaces>
+         <__.0>
+          <Application>App</Application>
+          <Cores>CORE0</Cores>
+          <Enabled>true</Enabled>
+          <UserName>Memory</UserName>
+          <MSID>
+           <App>0x0</App>
+           <bAppID>false</bAppID>
+           <bVMID>false</bVMID>
+           <Level>Sys</Level>
+           <Secure>false</Secure>
+           <Use>false</Use>
+           <VM>0x0</VM>
+          </MSID>
+         </__.0>
+        </MemorySpaces>
         <Startup>
-         <AfterDL1>false</AfterDL1>
+         <AfterDL1>true</AfterDL1>
          <AfterDL1Action>GotoEntry</AfterDL1Action>
          <AfterDL1Goto></AfterDL1Goto>
          <AfterDL2>false</AfterDL2>
@@ -514,7 +536,7 @@
      <Debug>
       <Processes>
        <__.0>
-        <URL>App/MCU/</URL>
+        <URL>App/Memory</URL>
        </__.0>
       </Processes>
      </Debug>
@@ -567,7 +589,7 @@
     <HServerData>
      <Data>
       <BBSync>
-       <Sync>Slave</Sync>
+       <Sync>Disabled</Sync>
        <SyncTime>false</SyncTime>
       </BBSync>
       <Debug>
@@ -2227,6 +2249,55 @@
        </TriCore>
       </Trace>
       <UMI1>
+       <Devices>
+        <Devices>
+         <__.0>
+          <AllowDownloadOnly>false</AllowDownloadOnly>
+          <AllowErase>true</AllowErase>
+          <Device>STM32L4 (1024 kB)</Device>
+          <DeviceAddress>0x8000000</DeviceAddress>
+          <DeviceType>Unknown</DeviceType>
+          <Enabled>true</Enabled>
+          <EraseBeforeDownload>false</EraseBeforeDownload>
+          <FillDevice>true</FillDevice>
+          <FillFirst>0x0</FillFirst>
+          <FillLast>0x0</FillLast>
+          <FillValue>0</FillValue>
+          <Flags_0>0</Flags_0>
+          <Flags_1>0</Flags_1>
+          <Flags_2>0</Flags_2>
+          <Flags_3>0</Flags_3>
+          <Manufacturer>ST</Manufacturer>
+          <Name>ST STM32L4 (1024 kB)</Name>
+          <OnChip>true</OnChip>
+          <OverrideTimeout>0</OverrideTimeout>
+          <ParallelNum>1</ParallelNum>
+          <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
+          <Timeout>10</Timeout>
+          <UseBufferCompress>true</UseBufferCompress>
+          <UseCompression>true</UseCompression>
+          <UseHash>true</UseHash>
+          <UseHashing>true</UseHashing>
+          <Verify>true</Verify>
+          <Version></Version>
+          <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
+          <Options>
+           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
+           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
+           <UNIT_Type_AllowProgramming_2>false</UNIT_Type_AllowProgramming_2>
+          </Options>
+         </__.0>
+        </Devices>
+       </Devices>
       </UMI1>
      </Data>
      <HW>
@@ -2296,11 +2367,11 @@
          </CTM>
         </CortexData>
         <OCD_ARM>
-         <CortexDebugProtocol>JTAG</CortexDebugProtocol>
+         <CortexDebugProtocol>SWD</CortexDebugProtocol>
          <CortexSWDClock>6000</CortexSWDClock>
          <CortexSwoClkPrescaler>0</CortexSwoClkPrescaler>
          <CortexSWOClock>0</CortexSWOClock>
-         <CortexTraceProtocol>Parallel</CortexTraceProtocol>
+         <CortexTraceProtocol>None</CortexTraceProtocol>
          <CortexTRACEWidth>4-bit</CortexTRACEWidth>
          <UseCTMCh0and1ForSyncedRunStop>false</UseCTMCh0and1ForSyncedRunStop>
          <UseCTMCh2and3ForTrace>false</UseCTMCh2and3ForTrace>
@@ -2637,11 +2708,11 @@
        </Synchronization>
       </BDM>
       <HW>
-       <HW>10</HW>
+       <HW>2</HW>
        <Communication>
-        <IPAddr></IPAddr>
+        <IPAddr>192.168.0.110</IPAddr>
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
-        <Mode>3</Mode>
+        <Mode>4</Mode>
         <TCPPortNumber>5313</TCPPortNumber>
         <USBDeviceName></USBDeviceName>
        </Communication>

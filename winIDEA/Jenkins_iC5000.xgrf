@@ -9,6 +9,42 @@
      </REG_HEADER>
      <REG_ROOT>
       <RegVer>1296121856</RegVer>
+      <EditorPersist>
+       <EditorPersist>
+        <__.0>
+         <BookmarkList></BookmarkList>
+         <CaretPos>14285</CaretPos>
+         <Encoding>2</Encoding>
+         <FileName>D:\gitHub\Jenkins_test\STM32L476\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>378</ScrollPos>
+        </__.0>
+        <__.1>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2189</CaretPos>
+         <Encoding>2</Encoding>
+         <FileName>D:\gitHub\Jenkins_test\STM32L476\Core\Src\sysmem.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>37</ScrollPos>
+        </__.1>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2333</CaretPos>
+         <Encoding>2</Encoding>
+         <FileName>D:\gitHub\Jenkins_test\STM32L476\Core\Startup\startup_stm32l476rgtx.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>60</ScrollPos>
+        </__.2>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2635</CaretPos>
+         <Encoding>2</Encoding>
+         <FileName>D:\gitHub\Jenkins_test\STM32L476\Core\Src\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>86</ScrollPos>
+        </__.3>
+       </EditorPersist>
+      </EditorPersist>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -34,6 +70,16 @@
    <REG_ROOT>
     <RegVer>1296121856</RegVer>
     <DesktopLayout>
+     <FileHistory>
+      <FileHistoryEntries>
+       <__.0>
+        <RelativeFilePath>..\STM32L476\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</RelativeFilePath>
+       </__.0>
+       <__.1>
+        <RelativeFilePath>..\STM32L476\Core\Src\sysmem.c</RelativeFilePath>
+       </__.1>
+      </FileHistoryEntries>
+     </FileHistory>
      <ToolbarData>
       <Toolbars.Debug>
        <Opened>true</Opened>
@@ -58,26 +104,73 @@
         <ViewType>Project</ViewType>
        </__.0>
        <__.1>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.1>
-       <__.2>
-        <ViewId>2</ViewId>
-        <ViewType>Output</ViewType>
-       </__.2>
-       <__.3>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
-       </__.3>
-       <__.4>
+       </__.1>
+       <__.2>
         <ViewId>4</ViewId>
         <ViewType>This</ViewType>
-       </__.4>
-       <__.5>
+       </__.2>
+       <__.3>
         <ViewId>5</ViewId>
         <ViewType>CustomWatch</ViewType>
+       </__.3>
+       <__.4>
+        <ViewId>2</ViewId>
+        <ViewType>Output</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>6</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.5>
+       <__.6>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>8</ViewId>
+        <ViewType>Document</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>10</ViewId>
+        <ViewType>Document</ViewType>
+       </__.8>
       </AllViewBaseData>
+      <DissasemblyViews>
+       <__.0>
+        <ViewId>-1</ViewId>
+        <ViewType>Disassembly</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>158</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>158</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>158</Width>
+         </__.2>
+        </ColumnData>
+       </__.0>
+      </DissasemblyViews>
+      <DocumentViews>
+       <__.0>
+        <RelativePath>..\STM32L476\Core\Startup\startup_stm32l476rgtx.s</RelativePath>
+        <ViewId>8</ViewId>
+        <ViewType>Document</ViewType>
+       </__.0>
+       <__.1>
+        <RelativePath>..\STM32L476\Core\Src\main.c</RelativePath>
+        <ViewId>10</ViewId>
+        <ViewType>Document</ViewType>
+       </__.1>
+      </DocumentViews>
       <OtherViews>
        <__.0>
         <ViewId>1</ViewId>
@@ -93,6 +186,14 @@
          <IsVisible>false</IsVisible>
         </FindData>
        </__.0>
+       <__.1>
+        <ViewId>6</ViewId>
+        <ViewType>Output_Progress</ViewType>
+        <FindData>
+         <IsInReplaceMode>false</IsInReplaceMode>
+         <IsVisible>false</IsVisible>
+        </FindData>
+       </__.1>
       </OutputViews>
       <ProjectViews>
        <__.0>
@@ -114,6 +215,100 @@
         </TreeState>
        </__.0>
       </ProjectViews>
+      <SfrViews>
+       <__.0>
+        <CustomSfrName></CustomSfrName>
+        <IsCustomSfr>false</IsCustomSfr>
+        <RealTimeUpdate>false</RealTimeUpdate>
+        <ViewId>-1</ViewId>
+        <ViewType>SFR</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>200</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems>System Control Block</SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>Cortex-M4,STM32L476xG</Name>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>General Purpose Registers</Name>
+              <Options>4</Options>
+             </__.0>
+             <__.1>
+              <Name>System Control Space</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>System Control Block</Name>
+                <Options>5</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>CPUID Base</Name>
+                  <Options>4</Options>
+                 </__.0>
+                </ChildItems>
+               </__.0>
+               <__.1>
+                <Name>System Control and ID</Name>
+                <Options>1</Options>
+               </__.1>
+              </ChildItems>
+             </__.1>
+            </ChildItems>
+           </__.0>
+          </ChildItems>
+         </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Cortex-M4,STM32L476xG</Name>
+            </__.1>
+            <__.2>
+             <Name>System Control Space</Name>
+            </__.2>
+            <__.3>
+             <Name>System Control Block</Name>
+            </__.3>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
+        </TreeState>
+       </__.0>
+      </SfrViews>
       <VariableViews>
        <__.0>
         <ViewId>3</ViewId>
@@ -246,10 +441,10 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>12</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>5</FocusedViewId>
+        <FocusedViewId>10</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -280,7 +475,7 @@
            <Children>
             <__.0>
              <DockType>None</DockType>
-             <Extent>0.25</Extent>
+             <Extent>0.201143</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
@@ -312,13 +507,35 @@
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.75</Extent>
+             <Extent>0.798857</Extent>
              <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
+             <TopTabViewId>10</TopTabViewId>
              <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>8</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>10</ViewId>
+              </__.1>
+             </Children>
             </__.1>
            </Children>
           </__.0>
@@ -333,14 +550,36 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
+             <DockType>None</DockType>
              <Extent>0.4</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>2</ViewId>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>6</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>2</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>View</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>6</ViewId>
+              </__.1>
+             </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
