@@ -9,7 +9,7 @@ pipeline {
     stage('Build with makefile') {
       steps {
         dir(path: 'STM32L476/Debug') {
-          powershell 'wsl make -j6'
+          bat 'wsl make -j6'
         }
 
       }
