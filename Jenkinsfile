@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'STM32node'
+      label 'master'
     }
 
   }
