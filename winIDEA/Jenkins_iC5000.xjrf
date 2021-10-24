@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296121856</RegVer>
+      <RegVer>1296175104</RegVer>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -20,7 +20,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296121856</RegVer>
+      <RegVer>1296175104</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -33,7 +33,16 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1296121856</RegVer>
+    <RegVer>1296175104</RegVer>
+    <Cfg_License>
+     <Source>HW</Source>
+     <Floating>
+      <Enterprise>EBA</Enterprise>
+     </Floating>
+     <Sentinel>
+      <Address></Address>
+     </Sentinel>
+    </Cfg_License>
     <Cfg_System>
      <Debug>
       <Applications>
@@ -41,9 +50,9 @@
         <Name>App</Name>
         <Directories>
          <AltPaths>false</AltPaths>
-         <ConvertFromTo>mnt/d/gitHub=D:/gitHub/</ConvertFromTo>
-         <ConvertPath>false</ConvertPath>
-         <FindPriority>DLFile</FindPriority>
+         <ConvertFromTo>/mnt/c/STM32node/workspace/Jenkins_test_master/STM32L476=../STM32L476</ConvertFromTo>
+         <ConvertPath>true</ConvertPath>
+         <FindPriority>Project</FindPriority>
          <FindSources>true</FindSources>
          <ProjectFilesDirs>
           <__.0>
@@ -467,7 +476,7 @@
       </WatchExport>
      </Debug>
      <Info>
-      <winIDEA>Build 9.21.20</winIDEA>
+      <winIDEA>Build 9.21.33</winIDEA>
      </Info>
      <Test>
       <CatchUncaughtExceptions>false</CatchUncaughtExceptions>
@@ -555,6 +564,7 @@
         <AutoStart>false</AutoStart>
         <Port>5555</Port>
         <Protocol>TCP</Protocol>
+        <TimestampUnit>100us</TimestampUnit>
         <TraceToXCP>false</TraceToXCP>
         <TrdPath></TrdPath>
        </Config>
@@ -570,7 +580,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296121856</RegVer>
+    <RegVer>1296175104</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>Jenkins_iC5000 - Debug</DefaultTargetName>
@@ -585,7 +595,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296121856</RegVer>
+    <RegVer>1296175104</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -2157,6 +2167,82 @@
            </IPQualifier>
           </Op>
          </I2C.3>
+         <STORE.0>
+          <Cfg>
+           <DTM_Partition>0</DTM_Partition>
+           <Group>0</Group>
+           <Name></Name>
+           <TC_Partition>0</TC_Partition>
+           <Partitions.0>
+            <Enabled>true</Enabled>
+            <Offset>0</Offset>
+            <Size>1024</Size>
+           </Partitions.0>
+           <Partitions.1>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.1>
+           <Partitions.2>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.2>
+           <Partitions.3>
+            <Enabled>false</Enabled>
+            <Offset>0</Offset>
+            <Size>0</Size>
+           </Partitions.3>
+          </Cfg>
+          <Op>
+           <RecordTC>false</RecordTC>
+           <IPQualifier>
+            <Initial>false</Initial>
+            <Disable>
+             <TC>0</TC>
+            </Disable>
+            <Enable>
+             <TC>0</TC>
+            </Enable>
+           </IPQualifier>
+           <Partitions.0>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.0>
+           <Partitions.1>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.1>
+           <Partitions.2>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.2>
+           <Partitions.3>
+            <PreTrigger>0</PreTrigger>
+            <Error>
+             <TC>0</TC>
+            </Error>
+            <Start>
+             <TC>0</TC>
+            </Start>
+           </Partitions.3>
+          </Op>
+         </STORE.0>
          <SYSTEM>
           <Cfg>
            <Group>0</Group>
@@ -2274,6 +2360,7 @@
           <ParallelNum>1</ParallelNum>
           <ProgramAtDownload>false</ProgramAtDownload>
           <ProgramEmpty>true</ProgramEmpty>
+          <SafeMode>Auto</SafeMode>
           <Timeout>10</Timeout>
           <UseBufferCompress>true</UseBufferCompress>
           <UseCompression>true</UseCompression>
@@ -2301,7 +2388,7 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>20</V_BUILD>
+      <V_BUILD>33</V_BUILD>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
       <V_MINOR>21</V_MINOR>
@@ -2585,8 +2672,8 @@
            <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
-            <PresetPCAfterStoppedInInit>false</PresetPCAfterStoppedInInit>
-            <Type>NonIntrusive</Type>
+            <PresetPCAfterStoppedInInit>EntryPoint</PresetPCAfterStoppedInInit>
+            <Type>Catch</Type>
            </DebugEntry>
           </Common>
           <Cortex>
