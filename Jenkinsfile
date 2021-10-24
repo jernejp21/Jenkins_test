@@ -15,5 +15,15 @@ pipeline {
       }
     }
 
+    stage('winIDEA test') {
+      steps {
+        dir(path: 'winIDEA') {
+          bat 'PATH=C:\\iSYSTEM\\winIDEA9\\Python'
+          bat 'python test.py'
+        }
+
+      }
+    }
+
   }
 }
