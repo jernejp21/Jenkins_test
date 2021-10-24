@@ -8,18 +8,10 @@ pipeline {
   stages {
     stage('Build with makefile') {
       steps {
-        sh '''cd STM32L476/Debug
-make clean
-make'''
-      }
-    }
+        dir(path: 'STM32L476/Debug') {
+          bat 'wsl make'
+        }
 
-    stage('Run winIDEA tests') {
-      steps {
-        sh '''. ~/bin/embeddedPy/bin/activate
-echo $PWD
-cd winIDEA
-python test.py'''
       }
     }
 
