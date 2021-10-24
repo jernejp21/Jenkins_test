@@ -16,7 +16,7 @@ make'''
 
     stage('Run winIDEA tests') {
       steps {
-        sh '''source ~bin/embeddedPy/bin/activate
+        sh '''. ~/bin/embeddedPy/bin/activate
 echo $PWD'''
       }
     }
