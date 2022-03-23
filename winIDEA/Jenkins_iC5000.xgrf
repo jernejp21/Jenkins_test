@@ -8,24 +8,24 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296175104</RegVer>
+      <RegVer>1296158720</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
-         <BookmarkList></BookmarkList>
-         <CaretPos>14285</CaretPos>
-         <Encoding>2</Encoding>
-         <FileName>D:\gitHub\Jenkins_test\STM32L476\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>378</ScrollPos>
-        </__.0>
-        <__.1>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>2</Encoding>
          <FileName>C:\STM32node\workspace\Jenkins_test_master\STM32L476\Core\Startup\startup_stm32l476rgtx.s</FileName>
          <FileType>0</FileType>
          <ScrollPos>0</ScrollPos>
+        </__.0>
+        <__.1>
+         <BookmarkList></BookmarkList>
+         <CaretPos>14285</CaretPos>
+         <Encoding>2</Encoding>
+         <FileName>D:\gitHub\Jenkins_test\STM32L476\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>378</ScrollPos>
         </__.1>
         <__.2>
          <BookmarkList></BookmarkList>
@@ -45,20 +45,28 @@
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
+         <CaretPos>2063</CaretPos>
+         <Encoding>0</Encoding>
+         <FileName>D:\GitHub\Jenkins_test\STM32L476\Core\Src\main.c</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>54</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
          <CaretPos>2635</CaretPos>
          <Encoding>2</Encoding>
          <FileName>D:\gitHub\Jenkins_test\STM32L476\Core\Src\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>86</ScrollPos>
-        </__.4>
-        <__.5>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>668</CaretPos>
          <Encoding>2</Encoding>
          <FileName>C:\STM32node\workspace\Jenkins_test_master\STM32L476\Core\Src\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.5>
+        </__.6>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -72,7 +80,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1296175104</RegVer>
+      <RegVer>1296158720</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -84,7 +92,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1296175104</RegVer>
+    <RegVer>1296158720</RegVer>
     <DesktopLayout>
      <FileHistory>
       <FileHistoryEntries>
@@ -142,16 +150,16 @@
         <ViewType>CustomWatch</ViewType>
        </__.4>
        <__.5>
-        <ViewId>6</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.5>
-       <__.6>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
-       </__.6>
-       <__.7>
         <ViewId>12</ViewId>
         <ViewType>Document</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>6</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
        </__.7>
       </AllViewBaseData>
       <DissasemblyViews>
@@ -172,7 +180,7 @@
          <__.2>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>158</Width>
+          <Width>380</Width>
          </__.2>
         </ColumnData>
        </__.0>
@@ -342,7 +350,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>16</Width>
          </__.4>
         </ColumnData>
        </__.0>
@@ -373,7 +381,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>16</Width>
          </__.4>
         </ColumnData>
        </__.1>
@@ -407,7 +415,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>97</Width>
+          <Width>16</Width>
          </__.4>
         </ColumnData>
         <WatchData>
@@ -446,17 +454,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>6</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>7</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>12</FocusedViewId>
+        <FocusedViewId>11</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1192</Bottom>
-         <Left>-23</Left>
-         <Right>1913</Right>
-         <Top>136</Top>
+         <Bottom>868</Bottom>
+         <Left>2020</Left>
+         <Right>3044</Right>
+         <Top>100</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -470,7 +478,7 @@
          <Children>
           <__.0>
            <DockType>None</DockType>
-           <Extent>0.75</Extent>
+           <Extent>0.615758</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
@@ -612,7 +620,7 @@
           </__.0>
           <__.1>
            <DockType>View</DockType>
-           <Extent>0.25</Extent>
+           <Extent>0.384242</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
@@ -639,6 +647,17 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+        <__.13>
+         <Items>
+          <__.0>
+           <V>main</V>
+          </__.0>
+         </Items>
+        </__.13>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
