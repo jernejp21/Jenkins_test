@@ -6,7 +6,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Jenkins test on GitHub":
-    - "//github.com/jernejp21/Jenkins_test"
+    - "//github.com/jernejp21/Jenkins_test/tree/gh-pages"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
