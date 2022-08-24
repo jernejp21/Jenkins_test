@@ -32,15 +32,15 @@ cp klipper.elf /lib/firmware/
 
 Tell coprocessor which file to run:
 ```
-echo klipper.elf > /sys/class/remoteproc/remoteproc0/firmware 
+echo klipper.elf > /sys/class/remoteproc/remoteproc0/firmware
 ```
 
 Run the coprocessor
 ```
-echo start > /sys/class/remoteproc/remoteproc0/status 
+echo start > /sys/class/remoteproc/remoteproc0/state
 ```
 
 Stop the coprocessor
 ```
-echo stop > /sys/class/remoteproc/remoteproc0/status
+echo stop > /sys/class/remoteproc/remoteproc0/state
 ```
