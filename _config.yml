@@ -4,7 +4,7 @@ remote_theme: just-the-docs/just-the-docs@v0.3.3
 heading_anchors: true
 
 # Colour scheme
-color_scheme: nakapan
+color_scheme: "nakapan"
 
 # Aux links for the upper right navigation
 aux_links:
