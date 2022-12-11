@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OpenAMP
-nav_order: 4
+nav_order: 5
 ---
 
 # Porting OpenAMP from STM32 library (demo project) to Klipper
